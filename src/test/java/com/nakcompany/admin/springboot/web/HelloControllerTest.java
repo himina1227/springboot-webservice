@@ -31,7 +31,7 @@ public class HelloControllerTest {
     @Test
     public void hello가_리턴된다() throws Exception {
         String hello = "hello";
-
+        System.out.printf("aaa");
         mvc.perform(get("/hello"))
                 .andExpect(status().isOk())
                 .andExpect(content().string(hello));
