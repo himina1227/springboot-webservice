@@ -1,5 +1,6 @@
 package com.nakcompany.admin.springboot.web;
 
+import com.nakcompany.admin.springboot.config.auth.SecurityConfig;
 import org.hamcrest.Matchers;
 import org.junit.Test;
 import org.junit.runner.RunWith;
